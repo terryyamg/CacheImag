@@ -14,6 +14,8 @@
 		2BBFD3191F3D95B900EDABE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BBFD3171F3D95B900EDABE9 /* LaunchScreen.storyboard */; };
 		2BBFD3241F3D95BA00EDABE9 /* CacheImagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFD3231F3D95BA00EDABE9 /* CacheImagTests.swift */; };
 		2BBFD32F1F3D95BA00EDABE9 /* CacheImagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFD32E1F3D95BA00EDABE9 /* CacheImagUITests.swift */; };
+		2BBFD33D1F3D95F000EDABE9 /* CustomImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFD33C1F3D95F000EDABE9 /* CustomImageCache.swift */; };
+		2BBFD33F1F3D98A100EDABE9 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBFD33E1F3D98A100EDABE9 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2BBFD32A1F3D95BA00EDABE9 /* CacheImagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CacheImagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBFD32E1F3D95BA00EDABE9 /* CacheImagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheImagUITests.swift; sourceTree = "<group>"; };
 		2BBFD3301F3D95BA00EDABE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BBFD33C1F3D95F000EDABE9 /* CustomImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageCache.swift; sourceTree = "<group>"; };
+		2BBFD33E1F3D98A100EDABE9 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				2BBFD30E1F3D95B900EDABE9 /* AppDelegate.swift */,
 				2BBFD3101F3D95B900EDABE9 /* ViewController.swift */,
+				2BBFD33E1F3D98A100EDABE9 /* MyTableViewCell.swift */,
+				2BBFD33C1F3D95F000EDABE9 /* CustomImageCache.swift */,
 				2BBFD3121F3D95B900EDABE9 /* Main.storyboard */,
 				2BBFD3151F3D95B900EDABE9 /* Assets.xcassets */,
 				2BBFD3171F3D95B900EDABE9 /* LaunchScreen.storyboard */,
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BBFD33D1F3D95F000EDABE9 /* CustomImageCache.swift in Sources */,
+				2BBFD33F1F3D98A100EDABE9 /* MyTableViewCell.swift in Sources */,
 				2BBFD3111F3D95B900EDABE9 /* ViewController.swift in Sources */,
 				2BBFD30F1F3D95B900EDABE9 /* AppDelegate.swift in Sources */,
 			);
